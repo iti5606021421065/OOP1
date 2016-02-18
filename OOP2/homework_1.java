@@ -9,6 +9,17 @@ public void input()
 		ss = JOptionPane.showInputDialog(null,"Input Second : = ","Input",JOptionPane.QUESTION_MESSAGE);
 		sec = Integer.parseInt(ss);
 	}
+	public void calculate(){
+		
+		minute = sec / 60;
+		sec    = sec % 60;
+		
+		hour   = minute / 60;
+		minute = minute % 60;
+		
+		today = hour / 24;
+		hour  = hour % 24;
+	}
 	public static void main(String[] args) {
 		
 
