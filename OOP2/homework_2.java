@@ -13,7 +13,25 @@ static int U=0;
 		name = name.toUpperCase();
 		return name;
 	}
-	
+	public void calculate(String name){
+		for (int i=0; i< name.length();i++){
+			if (name.charAt(i) == 'A'){
+				A = A+1;
+			}
+			else if (name.charAt(i) == 'E'){
+				E = E+1;
+			}
+			else if (name.charAt(i) == 'I'){
+				I = I+1;
+			}
+			else if (name.charAt(i) == 'O'){
+				O = O+1;
+			}
+			else if (name.charAt(i) == 'U'){
+				U = U+1;
+			}
+		}
+	}
 	public static void main(String[] args) {
 		
 
