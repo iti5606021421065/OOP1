@@ -9,7 +9,8 @@ public void input()
 		ss = JOptionPane.showInputDialog(null,"Input Second : = ","Input",JOptionPane.QUESTION_MESSAGE);
 		sec = Integer.parseInt(ss);
 	}
-	public void calculate(){
+	public void calculate()
+	{
 		
 		minute = sec / 60;
 		sec    = sec % 60;
@@ -21,8 +22,9 @@ public void input()
 		hour  = hour % 24;
 	}
 	public static void main(String[] args) {
-		
-
+		homework_1 h = new homework_1();
+		h.input();
+		h.calculate();
+		JOptionPane.showMessageDialog(null,"Show All: = \n"+"Day = "+h.today+" \nHour = "+h.hour+"\nMinute = "+h.minute+"\nSec = "+h.sec,"Input",JOptionPane.QUESTION_MESSAGE);
+		}
 	}
-
-}
