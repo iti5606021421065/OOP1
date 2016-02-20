@@ -33,7 +33,11 @@ static int U=0;
 		}
 	}
 	public static void main(String[] args) {
-		
+	String name;
+	homework_2 h = new homework_2();
+	name = h.input();
+	h.calculate(name);
+	JOptionPane.showMessageDialog(null,"Show Full name and Surname = "+name+"\n A = "+A+"\n E = "+E+"\n I  = "+I+"\n O = "+O+"\n U = "+U,"Output",JOptionPane.INFORMATION_MESSAGE);
 
 	}
 
