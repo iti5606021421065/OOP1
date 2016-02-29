@@ -1,6 +1,7 @@
 import java.io.*;
 import javax.swing.*;
 import java.util.*;
+//โปรแกรมแสดง คะแนนแบบสุ่ม และเกรดของ นักศึกษาOOP Sec3 Sec4 Sec5
 public class homework 
 {
 	int [][] Sec3,Sec4,Sec5;
